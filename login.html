@@ -1,4 +1,10 @@
 <body>
+    <?php 
+  session_start();
+  if(isset($_SESSION['unique_id'])){
+    header("location: users.php");
+  }
+?>
     <div class="wrapper">
       <section class="form login">
         <header>Realtime Chat App</header>

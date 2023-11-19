@@ -4,6 +4,3 @@
     header("location: users.php");
   }
 ?>
-
-<?php include_once "header.php"; ?>
-<?php include_once "index.html"; ?>
